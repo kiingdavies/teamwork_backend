@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test-init": "node ./node_modules/jasmine/bin/jasmine.js init",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js",
+    "start": "nodemon server.js"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Young-Einstein10/teamwork_backend.git"
@@ -37,6 +38,7 @@
     "body-parser": "^1.19.0",
     "cloudinary": "^1.16.0",
     "cors": "^2.8.5",
+    "datauri": "^2.0.0",
     "dot-env": "^0.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
