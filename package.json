@@ -6,7 +6,8 @@
   "scripts": {
     "test-init": "node ./node_modules/jasmine/bin/jasmine.js init",
     "test": "node ./node_modules/jasmine/bin/jasmine.js",
-    "start": "nodemon server.js"  },
+    "start": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Young-Einstein10/teamwork_backend.git"
@@ -40,6 +41,7 @@
     "cors": "^2.8.5",
     "datauri": "^2.0.0",
     "dot-env": "^0.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.12.1"

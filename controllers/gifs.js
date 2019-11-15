@@ -1,7 +1,5 @@
 const pool = require("../models/queries");
 const cloudinary = require("cloudinary").v2;                                               
-const multipart = require("connect-multiparty");                        
-const multipartMiddleware = multipart();
 
 
 // let filename = req.files.dataFile.path; 
@@ -33,7 +31,6 @@ const comment = (request, response) => {}
 const updateGif = (request, response) => {}
 
 const deleteGif = (request, response) => {}
-
 
 
 module.exports = { 
